@@ -1,3 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  font-family: 'Italianno', cursive;
+}
+
+
+
+
+/* Estilos para o corpo da página */
 body {
-    background-color: #F4F75D;
-} 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+/* Estilos para o cabeçalho */
+header {
+  background-color: #F4F75D; /* Cor de fundo do cabeçalho */
+  color: black; /* Cor do texto */
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main{
+    height: 83.8vh;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+footer {
+    background-color: #F4F75D; /* Cor de fundo do cabeçalho */
+    color: black; /* Cor do texto */
+    height: 10vh;
+}
+
+.icon{
+    padding: 0.2rem;
+    width: 4rem;
+}
+
+.logo {
+  font-size: 2rem;
+  margin-left: 2rem; /* 24px */
+}
+
+.abelha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Estilos para a navegação */
+nav {
+  background-color: white; /* Cor de fundo da barra de navegação */
+  padding: 0.625rem; /* 10px */
+  text-align: center;
+}
+
+.logo {
+    font-size: 1.5rem;
+    margin-top: 10%; /* Manter espaço para o título */
+    font-size: 2rem;
+    margin: 0; /* Removendo a margem anterior */
+    text-align: center; /* Centralizando o texto */
+ }
+ 
+
+
+button {
+  background-color: white; /* Cor de fundo dos botões */
+  color: black;
+  padding: 0.625rem 1.25rem; /* 10px 20px */
+  border:;
+  cursor: pointer;
+  margin: 0.313rem; /* 5px */
+}
+
+
+
+
+input[type="text"] {
+  padding: 0.625rem; /* 10px */
+  margin: 0.313rem; /* 5px */
+}
+
+
+
+
+/* Estilos para o rodapé */
+footer {
+  background-color: #F4F75D; /* Cor de fundo do rodapé */
+  color: #fff; /* Cor do texto */
+  padding: 1.25rem; /* 20px */.logo {
+    font-size: 1.5rem;
+    margin-top: 10%; /* Manter espaço para o título */
+ }
+ 
+  text-align: center;
+  height: 3.5rem;
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+/* Estilos para as imagens no rodapé */
+footer img {
+  margin: 0 0.313rem; /* 0 5px */
+}
+
+
+
+
+.logo-images {
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin: 2%; /* Espaçamento em porcentagem */
+}
+
+
