@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
 
 * {
   box-sizing: border-box;
@@ -11,128 +9,246 @@
   font-family: 'Italianno', cursive;
 }
 
-
-
-
-/* Estilos para o corpo da página */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+  background-color: #f1f192;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
 
-
-
-/* Estilos para o cabeçalho */
 header {
-  background-color: #F4F75D; /* Cor de fundo do cabeçalho */
-  color: black; /* Cor do texto */
+  background-color: #F4F75D;
+  color: black;
   width: 100%;
   height: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid black;
 }
 
-main{
-    height: 83.8vh;
-    display: grid;
-    grid-template-columns: auto auto auto;
+
+main {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border: 1px solid black;
 }
+
 
 footer {
-    background-color: #F4F75D; /* Cor de fundo do cabeçalho */
-    color: black; /* Cor do texto */
-    height: 10vh;
+  background-color: #F4F75D;
+  color: black;
+  border: 1px solid black;
 }
 
-.icon{
-    padding: 0.2rem;
-    width: 4rem;
+
+.icon {
+  padding: 0.2rem;
+  max-height: 90%;
 }
+
 
 .logo {
   font-size: 2rem;
-  margin-left: 2rem; /* 24px */
-}
-
-.abelha{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin-left: 2rem;
 }
 
 
-/* Estilos para a navegação */
-nav {
-  background-color: white; /* Cor de fundo da barra de navegação */
-  padding: 0.625rem; /* 10px */
-  text-align: center;
-}
-
-.logo {
-    font-size: 1.5rem;
-    margin-top: 10%; /* Manter espaço para o título */
-    font-size: 2rem;
-    margin: 0; /* Removendo a margem anterior */
-    text-align: center; /* Centralizando o texto */
- }
- 
-
-
-button {
-  background-color: white; /* Cor de fundo dos botões */
-  color: black;
-  padding: 0.625rem 1.25rem; /* 10px 20px */
-  border:;
-  cursor: pointer;
-  margin: 0.313rem; /* 5px */
-}
-
-
-
-
-input[type="text"] {
-  padding: 0.625rem; /* 10px */
-  margin: 0.313rem; /* 5px */
-}
-
-
-
-
-/* Estilos para o rodapé */
-footer {
-  background-color: #F4F75D; /* Cor de fundo do rodapé */
-  color: #fff; /* Cor do texto */
-  padding: 1.25rem; /* 20px */.logo {
-    font-size: 1.5rem;
-    margin-top: 10%; /* Manter espaço para o título */
- }
- 
-  text-align: center;
-  height: 3.5rem;
+.abelha {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
 
 
-
-/* Estilos para as imagens no rodapé */
-footer img {
-  margin: 0 0.313rem; /* 0 5px */
+nav {
+  background-color: white;
+  padding: 0.625rem;
+  text-align: center;
 }
+
+
+.logo {
+  font-size: 1.5rem;
+  margin-top: 10%;
+  font-size: 2rem;
+  margin: 0;
+  text-align: center;
+}
+
+
+
+
+button {
+  background-color: white;
+  color: black;
+  padding: 0.625rem 1.25rem;
+  border: none;
+  cursor: pointer;
+  margin: 0.313rem;
+}
+
+
+
+
+
+input[type="text"] {
+  padding: 0.625rem;
+  margin: 0.313rem;
+}
+
+
+
+footer {
+  background-color: #F4F75D;
+  color: #fff;
+  height: 10vh;
+}
+
+
+
+
+footer img {
+  margin: 0 0.313rem;
+}
+
+
+
+
 
 
 
 
 .logo-images {
-   position: absolute;
-   top: 0;
-   right: 0;
-   margin: 2%; /* Espaçamento em porcentagem */
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 2%;
 }
 
 
+
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.form img {
+  display: block;
+}
+
+
+.abelita {
+  width: 7.934rem;
+  height: 7.5rem;
+}
+
+
+.pagina2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  width: 100%;
+  font-family: "Jockey One", sans-serif;
+  ;
+}
+
+.pagina2 article {
+  background-color: #F4F75D;
+  width: 20%;
+  height: 11rem;
+}
+
+
+
+
+
+
+.williams {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.oi {
+  background-color: #F4F75D;
+  border: 2px solid black;
+  width: 40%;
+  height: 5rem;
+  align-items: center;
+}
+
+.williams h1 {
+  font-size: 46px;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 0.6rem;
+
+
+}
+
+h3 {
+  background-color: #F4F75D;
+  width: 50%;
+ 
+}
+
+
+.pagina2 p {
+  font-size: 36px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.pagina2 article a {
+  display: flex;
+  font-size: 26px;
+  font-family: "Jockey One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 130px;
+  color: rgba(22, 126, 230, 1);
+
+}
+
+.pagina2 article {
+  border: 2px solid black;
+}
+
+.yu{
+  width: 30%;
+  height: 20%;
+}
+.oii{
+  background-color: #F4F75D;
+  border: 2px solid black;
+  width: 40%;
+  height: 5rem;
+  align-items: center;
+}
+.oii img{
+  padding-left: 2rem;
+}
+.pesq h1{
+  height: 40px;
+}
