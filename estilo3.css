@@ -1,0 +1,18 @@
+.azul{
+    color: blue;
+}
+
+.verde{
+    color: rgb(124, 204, 124);
+    font-style: none;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: none;
+    background-color: #F4F75D;
+}
+
