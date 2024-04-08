@@ -1,0 +1,27 @@
+@media (max-width:600px){
+    div.abelha{
+        display: none;
+    }
+    main.mein{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+}
+
+@media (max-width: 400px){
+    .logo{
+        font-size: 1rem;
+    }
+    .icun{
+        width: 40%;
+    }
+    .icon{
+        width: 21%;
+        height: 10rem;
+    }
+
+
+}
