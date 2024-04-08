@@ -26,7 +26,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border: 1px solid black;
+  border: 0.063rem solid black;
 }
 
 
@@ -34,14 +34,14 @@ main {
   height: 80vh;
   display: grid;
   grid-template-columns: auto auto auto;
-  border: 1px solid black;
+  border: 0.063rem solid black;
 }
 
 
 footer {
   background-color: #F4F75D;
   color: black;
-  border: 1px solid black;
+  border: 0.063rem solid black;
 }
 
 
@@ -151,8 +151,7 @@ footer img {
 
 .pagina2 article{
   background-color: #F4F75D;
-  width: 100%;
-  height: 11rem;
+  
 }
 
 .williams {
@@ -165,14 +164,14 @@ footer img {
 
 .oi {
   background-color: #F4F75D;
-  border: 2px solid black;
+  border: 0.125rem solid black;
   width: 40%;
   height: 5rem;
   align-items: center;
 }
 
 .williams h1 {
-  font-size: 46px;
+  font-size: 2.875rem;
   width: 100%;
   height: 10%;
   text-align: center;
@@ -191,7 +190,7 @@ h3 {
 }
 
 .pagina2 p {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-family: "Jockey One", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -200,17 +199,17 @@ h3 {
 
 .pagina2 article a {
   display: flex;
-  font-size: 26px;
+  font-size: 1.625rem;
   font-family: "Jockey One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  padding-left: 130px;
+  padding-left: 8.125rem;
   color: rgba(22, 126, 230, 1);
 
 }
 
 .pagina2 article {
-  border: 2px solid black;
+  border: 0.125rem solid black;
 }
 
 .yu{
@@ -219,7 +218,7 @@ h3 {
 }
 .oii{
   background-color: #F4F75D;
-  border: 2px solid black;
+  border: 0.125rem solid black;
   width: 40%;
   height: 5rem;
   align-items: center;
@@ -228,5 +227,13 @@ h3 {
   padding-left: 2rem;
 }
 .pesq h1{
-  height: 40px;
+  height: 2.5rem;
 }
+
+
+.pagina2 article a{
+  width: 20%;
+  height: 6rem;
+  padding-right: 4.375rem;
+}
+
