@@ -7,21 +7,97 @@
         align-items: center;
         justify-content: center;
     }
-    
-
-}
-
-@media (max-width: 400px){
-    .logo{
-        font-size: 1rem;
+   
+ 
+ 
+ }
+ 
+ 
+ @media (max-width: 400px){
+    .logo1{
+        font-size: 2rem;
     }
     .icun{
         width: 40%;
     }
-    .icon{
-        width: 21%;
-        height: 10rem;
+    .icon1{
+        width: 3rem;
+        
     }
-
-
-}
+    #tp{
+        font-size: 2rem;
+        height: 100%;
+    }
+    .oii{
+        display: flex;
+        flex-direction: row;
+    }
+ 
+ 
+    .yu{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+    main {
+        
+        display: grid;
+        grid-template-columns: auto;
+        
+      }
+   
+ }
+ 
+ 
+ @media(max-width: 1080px){
+    .pagina2{
+        flex-direction: column;
+    }
+    .williams{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+  
+    
+    .pagina2 article{
+        margin: 10px 0 10px 0;
+    }
+    #pesquisa{
+        width: 50%;
+        height: auto;
+        display: block;
+        padding: 0;
+   
+    }
+ 
+ 
+ 
+ 
+ @media (max-width: 850px){
+    #tp{
+        font-size: 2rem;
+        height: 100%;
+    }
+    .oii{
+        display: flex;
+        flex-direction: row;
+    }
+ 
+ 
+    .yu{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+ 
+ 
+ }
+  
+ }
+ 

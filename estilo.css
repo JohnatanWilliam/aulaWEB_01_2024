@@ -31,7 +31,7 @@ header {
 
 
 main {
-  height: 80vh;
+  min-height: 80vh;
   display: grid;
   grid-template-columns: auto auto auto;
   border: 0.063rem solid black;
@@ -96,10 +96,7 @@ button {
 
 
 
-input[type="text"] {
-  padding: 0.625rem;
-  margin: 0.313rem;
-}
+
 
 
 
@@ -165,9 +162,8 @@ footer img {
 .oi {
   background-color: #F4F75D;
   border: 0.125rem solid black;
-  width: 40%;
+  min-width: 20rem;
   height: 5rem;
-  align-items: center;
 }
 
 .williams h1 {
